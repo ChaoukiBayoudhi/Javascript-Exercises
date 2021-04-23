@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+</head>
+
+<body>
+    <div id="quizContainer_id" class="container">
+        <div class="title">Drones Quiz</div>
+        <div id="question_id" class="question">1. What is Drone?</div>
+        <label class="option"><input type="radio" name="option" value="1" id="prop_id1"/><span id="prop1">a ground vehicule</span></label>
+        <label class="option"><input type="radio" name="option" value="2" id="prop_id2"/><span id="prop2">an air-ground vehicule</span></label>
+        <label class="option"><input type="radio" name="option" value="3" id="prop_id3"/><span id="prop3">an unpiloted aircraft</span></label>
+        <label class="option"><input type="radio" name="option" value="4" id="prop_id4" checked/><span id="prop4">I don't know</span></label>
+        <button id="nextButton_id" class="next-button">Next Question</button>
+    </div>
+
+    <div id="result_id" class="container result" style="display:none;"></div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
